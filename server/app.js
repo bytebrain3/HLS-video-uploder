@@ -22,6 +22,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 
+
+
 // Add this to debug socket.io
 io.engine.on("connection_error", (err) => {
   console.log("Connection error:", err);

@@ -149,5 +149,3 @@ const formatDuration = (durationInSeconds) => {
     formatted: `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`
   };
 };
-  git config --global user.email "you@example.com"
-  git config --global user.name "Your Name"

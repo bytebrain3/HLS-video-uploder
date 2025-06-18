@@ -136,6 +136,11 @@ docker build -t hls-video-uploader .
 docker run -p 3000:3000 -e BLOB_READ_WRITE_TOKEN=your_token hls-video-uploader
 ```
 
+## Use this as npm package
+```bash
+npm i video-hls-converter
+```
+
 ## License
 
 ISC
